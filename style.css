@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #1f2937;
+    height: 100vh;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .navbar {
+    height: 60px;
+  }
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .navbar .container ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar a {
+    text-decoration: none;
+  }
+  
+  .header,
+  section {
+    height: 50vh;
+  }
+  
+  .header .container {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 20px;
+  }
+  
+  .navlinks,
+  .hero p {
+    color: #e5e7eb;
+    font-size: 18px;
+  }
+  
+  .hero {
+    width: 55%;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #f9faf8;
+  }
+  
+  button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 2px 18px;
+    border-style: none;
+    color: #f9faf8;
+  }
+  
+  .cards figure img,
+  figcaption {
+    width: 150px;
+  }
+  
+  .cards figure img {
+    border-radius: 10px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .section-one {
+    background-color: #f9faf8;
+  }
+  h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .quote-section {
+    background-color: #e5e7eb;
+    padding: 60px;
+  }
+  
+  .quote-section .container p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+  }
+  
+  .calltoaction-section {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .calltoaction-section .container {
+    background-color: #3882f6;
+    width: 70%;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+  }
+  
+  .calltoaction-section .container button {
+    border-style: solid;
+    border-color: #f9faf8;
+  }
+  
+  footer {
+    height: 8vh;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
